@@ -29,7 +29,8 @@ public class EmailBean implements Serializable {
 	
 	private Email montarEmail() {
 		EmailLayout layout = new EmailLayout();
-		return layout.montarEmailAdministrador(DESTINATARIO, ASSUNTO);
+		//return layout.montarEmailAdministrador(DESTINATARIO, ASSUNTO);
+		return layout.montarEmailSecretario(DESTINATARIO, ASSUNTO);
 	}
 
 }
